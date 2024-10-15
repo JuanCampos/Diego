@@ -19,12 +19,12 @@ function openModal(imageSrc) {
         ];
     } else if (imageSrc.includes("2B")) {
         imagesArray = [            'img/1B/postdeprueba1.png',
-            'img/2B/postdeprueba1.png',
-            'img/2B/postdeprueba5.png',
-            'img/2B/postdeprueba3.png',
-            'img/2B/postdeprueba4.png',
+            'img/2B/trabajo2b3.jpg',
+            'img/2B/tepusisterepelente.jpg',
+            'img/2B/trabajo2b.jpg',
+            'img/2B/trabajo2b2.jpg',
             'img/2B/postdeprueba2.png',
-            'img/2B/postdeprueba6.png',        ];
+            'img/2B/trabjo2b4.jpg',        ];
     } else if (imageSrc.includes("3B")) {
         imagesArray = [
             'img/3B/postdeprueba1.png',
@@ -45,8 +45,8 @@ function openModal(imageSrc) {
         ];
     } else if (imageSrc.includes("5B")) {
         imagesArray = [
-            'img/5B/postdeprueba1.png',
-            'img/5B/postdeprueba5.png',
+            'img/5B/trabajo25b.jpg',
+            'img/5B/trabajo5b.jpg',
             'img/5B/postdeprueba3.png',
             'img/5B/postdeprueba4.png',
             'img/5B/postdeprueba2.png',
