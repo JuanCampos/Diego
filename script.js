@@ -9,7 +9,12 @@ function openModal(imageSrc) {
     // Asigna el array de imágenes según la imagen que se abrió
     if (imageSrc.includes("1B")) {
         imagesArray = [
-            'img/1B/melody.jpeg',
+            'img/1B/postdeprueba1.png',
+            'img/1B/postdeprueba5.png',
+            'img/1B/postdeprueba3.png',
+            'img/1B/postdeprueba4.png',
+            'img/1B/postdeprueba2.png',
+            'img/1B/postdeprueba6.png',
             // Agrega más imágenes de 1B aquí
         ];
     } else if (imageSrc.includes("2B")) {
