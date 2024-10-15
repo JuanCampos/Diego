@@ -18,40 +18,48 @@ function openModal(imageSrc) {
             // Agrega más imágenes de 1B aquí
         ];
     } else if (imageSrc.includes("2B")) {
-        imagesArray = [
-            'img/2B/imagen2b_1.jpg',
-            'img/2B/imagen2b_2.jpg',
-            'img/2B/imagen2b_3.jpg',
-            'img/2B/imagen2b_4.jpg',
-            'img/2B/imagen2b_5.jpg',
-        ];
+        imagesArray = [            'img/1B/postdeprueba1.png',
+            'img/2B/postdeprueba1.png',
+            'img/2B/postdeprueba5.png',
+            'img/2B/postdeprueba3.png',
+            'img/2B/postdeprueba4.png',
+            'img/2B/postdeprueba2.png',
+            'img/2B/postdeprueba6.png',        ];
     } else if (imageSrc.includes("3B")) {
         imagesArray = [
-            'img/3B/imagen3b_1.jpg',
-            'img/3B/imagen3b_2.jpg',
-            'img/3B/imagen3b_3.jpg',
-            'img/3B/imagen3b_4.jpg',
-            'img/3B/imagen3b_5.jpg',
+            'img/3B/postdeprueba1.png',
+            'img/3B/postdeprueba5.png',
+            'img/3B/postdeprueba3.png',
+            'img/3B/postdeprueba4.png',
+            'img/3B/postdeprueba2.png',
+            'img/3B/postdeprueba6.png',
         ];
     } else if (imageSrc.includes("4B")) {
         imagesArray = [
-            'img/4B/imagen4b_1.jpg',
-            'img/4B/imagen4b_2.jpg',
-            'img/4B/imagen4b_3.jpg',
-            'img/4B/imagen4b_4.jpg',
+            'img/4B/postdeprueba1.png',
+            'img/4B/postdeprueba5.png',
+            'img/4B/postdeprueba3.png',
+            'img/4B/postdeprueba4.png',
+            'img/4B/postdeprueba2.png',
+            'img/4B/postdeprueba6.png',
         ];
     } else if (imageSrc.includes("5B")) {
         imagesArray = [
-            'img/5B/imagen5b_1.jpg',
-            'img/5B/imagen5b_2.jpg',
-            'img/5B/imagen5b_3.jpg',
-            'img/5B/imagen5b_4.jpg',
-            'img/5B/imagen5b_5.jpg',
+            'img/4B/postdeprueba1.png',
+            'img/4B/postdeprueba5.png',
+            'img/4B/postdeprueba3.png',
+            'img/4B/postdeprueba4.png',
+            'img/4B/postdeprueba2.png',
+            'img/4B/postdeprueba6.png',
         ];
     } else if (imageSrc.includes("6B")) {
         imagesArray = [
-            'img/6B/imagen6b_1.jpg',
-            'img/6B/imagen6b_2.jpg',
+            'img/6B/postdeprueba1.png',
+            'img/6B/postdeprueba5.png',
+            'img/6B/postdeprueba3.png',
+            'img/6B/postdeprueba4.png',
+            'img/6B/postdeprueba2.png',
+            'img/6B/postdeprueba6.png',
         ];
     }
 
