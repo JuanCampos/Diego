@@ -60,7 +60,7 @@ header {
 
 /* Estilo para la imagen del mosquito muerto */
 .mosquito-container {
-    position: absolute;
+    position: fixed;
     bottom: 50px; /* Espaciado desde la parte inferior de la página */
     right: 50px;  /* Espaciado desde la parte derecha de la página */
 }
