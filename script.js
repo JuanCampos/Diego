@@ -45,12 +45,12 @@ function openModal(imageSrc) {
         ];
     } else if (imageSrc.includes("5B")) {
         imagesArray = [
-            'img/4B/postdeprueba1.png',
-            'img/4B/postdeprueba5.png',
-            'img/4B/postdeprueba3.png',
-            'img/4B/postdeprueba4.png',
-            'img/4B/postdeprueba2.png',
-            'img/4B/postdeprueba6.png',
+            'img/5B/postdeprueba1.png',
+            'img/5B/postdeprueba5.png',
+            'img/5B/postdeprueba3.png',
+            'img/5B/postdeprueba4.png',
+            'img/5B/postdeprueba2.png',
+            'img/5B/postdeprueba6.png',
         ];
     } else if (imageSrc.includes("6B")) {
         imagesArray = [
