@@ -9,39 +9,41 @@ function openModal(imageSrc) {
     // Asigna el array de imágenes según la imagen que se abrió
     if (imageSrc.includes("1B")) {
         imagesArray = [
-            'img/1B/postdeprueba1.png',
-            'img/1B/postdeprueba5.png',
-            'img/1B/postdeprueba3.png',
-            'img/1B/postdeprueba4.png',
-            'img/1B/postdeprueba2.png',
-            'img/1B/postdeprueba6.png',
-            // Agrega más imágenes de 1B aquí
+            'img/1B/1B1trabajo.jpg',
+            'img/1B/1B3trabajo.png',
+            'img/1B/1trabajo.jpg',
+            'img/1B/1A2trabajo.jpg',
+            'img/1B/1A3trabajo.jpg',
+            'img/1B/1A4trabajo.jpg',
         ];
     } else if (imageSrc.includes("2B")) {
-        imagesArray = [            'img/1B/postdeprueba1.png',
-            'img/2B/trabajo2b3.jpg',
-            'img/2B/tepusisterepelente.jpg',
-            'img/2B/trabajo2b.jpg',
+        imagesArray = [
+            'img/2B/trabajo2b1.jpg',
             'img/2B/trabajo2b2.jpg',
-            'img/2B/postdeprueba2.png',
-            'img/2B/trabjo2b4.jpg',        ];
+            'img/2B/trabajo2b3.jpg',
+            'img/2B/trabajo2b4.jpg',
+            'img/2B/trabajo2b5.jpg',
+            'img/2B/trabajo2b6.jpg',    
+            'img/2B/trabajo2b7.jpg',
+        ];
     } else if (imageSrc.includes("3B")) {
         imagesArray = [
             'img/3B/postdeprueba1.png',
-            'img/3B/postdeprueba5.png',
+            'img/3B/3Btrabajo.jpg',
             'img/3B/postdeprueba3.png',
             'img/3B/postdeprueba4.png',
-            'img/3B/postdeprueba2.png',
+            'img/3B/3B2trabajo.jpg',
             'img/3B/postdeprueba6.png',
         ];
     } else if (imageSrc.includes("4B")) {
         imagesArray = [
-            'img/4B/postdeprueba1.png',
-            'img/4B/postdeprueba5.png',
-            'img/4B/postdeprueba3.png',
-            'img/4B/postdeprueba4.png',
-            'img/4B/postdeprueba2.png',
-            'img/4B/postdeprueba6.png',
+            'img/4B/4B1trabajo.jpg',
+            'img/4B/4B2trabajo.png',
+            'img/4B/4B3trabajo.jpg',
+            'img/4B/4A2trabajo.jpg',
+            'img/4B/4A3trabajo.jpg',
+            'img/4B/4A4trabajo.jpg',
+            'img/4B/4A5trabajo.jpg',
         ];
     } else if (imageSrc.includes("5B")) {
         imagesArray = [
@@ -54,17 +56,17 @@ function openModal(imageSrc) {
         ];
     } else if (imageSrc.includes("6B")) {
         imagesArray = [
-            'img/6B/postdeprueba1.png',
-            'img/6B/postdeprueba5.png',
-            'img/6B/postdeprueba3.png',
-            'img/6B/postdeprueba4.png',
-            'img/6B/postdeprueba2.png',
-            'img/6B/postdeprueba6.png',
+            'img/6B/6B1trabajo.jpg',
+            'img/6B/6B2trabajo.jpg',
+            'img/6B/6B3trabajo.jpg',
+            'img/6B/6B4trabajo.jpg',
+            'img/6B/6B5trabajo.jpg',
+            'img/6B/6B6trabajo.jpg',
         ];
     }
 
     currentImageIndex = imagesArray.indexOf(imageSrc); // Encuentra el índice de la imagen actual
-    modal.style.display = "block";
+    modal.style.display = "flex"; // Cambiado a 'flex' para que funcione con los nuevos estilos
     modalImg.src = imageSrc;
 }
 
