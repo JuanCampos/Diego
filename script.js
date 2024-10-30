@@ -24,7 +24,7 @@ function openModal(imageSrc) {
             'img/2B/trabajo2b4.jpg',
             'img/2B/trabajo2b5.jpg',
             'img/2B/trabajo2b6.jpg',    
-            'img/2B/trabajo2b7.jpg',
+            'img/2B/trabajo2b7.png',   
         ];
     } else if (imageSrc.includes("3B")) {
         imagesArray = [
